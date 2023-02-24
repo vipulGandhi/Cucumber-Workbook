@@ -1,0 +1,3 @@
+ApplicationHooks/EcommerceHooks.class
+StepDefinitions/SearchSteps.class
+TestRunners/AmazonTest.class

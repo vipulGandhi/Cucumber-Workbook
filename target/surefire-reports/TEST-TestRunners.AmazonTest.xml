@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunners.AmazonTest" time="0.241" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework/target/test-classes:/Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework/target/classes:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/vipulgandhi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-junit/7.11.1/cucumber-junit-7.11.1.jar:/Users/vipulgandhi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/vipulgandhi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.4.v20220903-1038/jre/lib"/>
+    <property name="sun.java.command" value="/Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework/target/surefire/surefirebooter-20230223162411613_3.jar /Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework/target/surefire 2023-02-23T16-24-11_488-jvmRun1 surefire-20230223162411613_1tmp surefire_0-20230223162411613_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework/target/test-classes:/Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework/target/classes:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/vipulgandhi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/vipulgandhi/.m2/repository/io/cucumber/cucumber-junit/7.11.1/cucumber-junit-7.11.1.jar:/Users/vipulgandhi/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/vipulgandhi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vipulgandhi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.4.v20220903-1038/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework/target/surefire/surefirebooter-20230223162411613_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.name" value="vipulgandhi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.6.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="localRepository" value="/Users/vipulgandhi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/5l/cnx21f9j4yx6qkzb5hfz8yrr0000gn/T/"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="/Users/vipulgandhi/Documents/Vipul/Automation/Projects/Cucumber-BDD-Automation-Framework"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vipulgandhi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Login to Amazon website with valid credentials" classname="Amazon Login" time="0.056">
+    <system-out><![CDATA[
+@All @Smoke, @Regression, @UserStory-1001, @Epic-2001
+Scenario: Login to Amazon website with valid credentials                                       &amp#27;[90m# src/test/resources/ApplicationFeatures/Search.feature:10&amp#27;[0m
+User is on Amazon login page ... 
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on Amazon login page&amp#27;[0m                                                           &amp#27;[90m# StepDefinitions.SearchSteps.user_is_on_amazon_login_page()&amp#27;[0m
+User login with valid name ValidUser and valid passwordValidPassword
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser login with valid name &amp#27;[0m&amp#27;[32m&amp#27;[1m"ValidUser"&amp#27;[0m&amp#27;[32m and valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"ValidPassword"&amp#27;[0m               &amp#27;[90m# StepDefinitions.SearchSteps.user_login_with_valid_name_something_and_valid_password_something(java.lang.String,java.lang.String)&amp#27;[0m
+User is logged into the application true
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is logged into the application &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                              &amp#27;[90m# StepDefinitions.SearchSteps.user_is_logged_into_the_application_something(java.lang.String)&amp#27;[0m
+The Login page redirects to users dashboard and Valid user name ValidUser is displayed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Login page redirects to users dashboard and Valid user name "&amp#27;[0m&amp#27;[32m&amp#27;[1mValidUser&amp#27;[0m&amp#27;[32m" is displayed&amp#27;[0m &amp#27;[90m# StepDefinitions.SearchSteps.the_login_page_redirects_to_users_dashboard_and_valid_user_name_something_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Login to Amazon website with invalid credentials" classname="Amazon Login" time="0.001">
+    <system-out><![CDATA[
+@All @Sanity
+Scenario: Login to Amazon website with invalid credentials                               &amp#27;[90m# src/test/resources/ApplicationFeatures/Search.feature:16&amp#27;[0m
+User is on Amazon login page ... 
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on Amazon login page&amp#27;[0m                                                     &amp#27;[90m# StepDefinitions.SearchSteps.user_is_on_amazon_login_page()&amp#27;[0m
+User login with invalid name InvalidUser and invalid passwordInvalidPassword
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser login with invalid name &amp#27;[0m&amp#27;[32m&amp#27;[1m"InvalidUser"&amp#27;[0m&amp#27;[32m and invalid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"InvalidPassword"&amp#27;[0m &amp#27;[90m# StepDefinitions.SearchSteps.user_login_with_invalid_name_something_and_invalid_password_something(java.lang.String,java.lang.String)&amp#27;[0m
+User is logged into the application false
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is logged into the application &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                       &amp#27;[90m# StepDefinitions.SearchSteps.user_is_logged_into_the_application_something(java.lang.String)&amp#27;[0m
+Error message is displayed
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message is displayed&amp#27;[0m                                                         &amp#27;[90m# StepDefinitions.SearchSteps.error_message_is_displayed()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

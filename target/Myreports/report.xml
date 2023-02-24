@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.131" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Login" name="Login to Amazon website with valid credentials" time="0.019">
+<system-out><![CDATA[
+Given User is on Amazon login page..........................................passed
+When User login with valid name "ValidUser" and valid password "ValidPassword".passed
+Then User is logged into the application "true".............................passed
+And The Login page redirects to users dashboard and Valid user name "ValidUser" is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Login" name="Login to Amazon website with invalid credentials" time="0.004">
+<system-out><![CDATA[
+Given User is on Amazon login page..........................................passed
+When User login with invalid name "InvalidUser" and invalid password "InvalidPassword".passed
+Then User is logged into the application "false"............................passed
+And Error message is displayed..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
