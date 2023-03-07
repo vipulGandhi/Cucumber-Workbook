@@ -234,7 +234,8 @@
 		// @BeforeStep is executed before each scenario step
 		// @AfterStep is executed after each scenario step
 		// We can have multiple @Before, @After methods in a class
-			// Their execution depends on @Before(order = 1), @Before(order = 2) etc.
+			// Their execution order will be @Before(order = 1) then @Before(order = 2) ...
+			// Their execution order will be @After(order = 2) then @After(order = 1) ...
 
 // Parallel Testing with Dependency Injection
 	// To share the data between multiple step-definition files, we use dependency injection (DI) with the help of PicoContainer
